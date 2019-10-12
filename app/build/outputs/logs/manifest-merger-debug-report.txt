@@ -1,0 +1,272 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [androidx.databinding:databinding-adapters:3.6.0-alpha09] /home/gado/.gradle/caches/transforms-2/files-2.1/ae0b9fa04297d692df6eabd29d0fbd48/databinding-adapters-3.6.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.6.0-alpha09] /home/gado/.gradle/caches/transforms-2/files-2.1/bf079d791827efa16671c18fef270316/databinding-runtime-3.6.0-alpha09/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7fd03e7484a8faa52b1ca4594bf05e75/navigation-ui-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e2e6122422235869c607bdb48f9632b5/jetified-navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/0f8f45cc047c7203e43710437c554d4a/material-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7ef3a039e8016fd4c6a422584bf8a12c/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/33a96ef8e65000a5f77ec7bafbf81e22/core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/gado/.gradle/caches/transforms-2/files-2.1/1fbb3a5ade844868fa67fdf1dcc21846/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8238c745f12f47b2aa96291436f1dc86/lifecycle-extensions-2.1.0/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/89e43e19fae1f874ee166f561e246e75/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5b420ce3670382d9afe34bd6eb7e336b/fragment-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/40d38e42ecd8bf140c832adb5e61b0f0/activity-ktx-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1f04af05a16b53ba00908c98add31136/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8550a96463c9bbd0bca925845e2850a6/glide-4.10.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.volley:volley:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/df4a3d9cdf4ea44c0266efbe283dd7cb/volley-1.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.databinding:viewbinding:3.6.0-alpha09] /home/gado/.gradle/caches/transforms-2/files-2.1/1f8fd37e5f060574ee3b832909868c32/viewbinding-3.6.0-alpha09/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a3667be2aed7df92ef690eb0c810efb9/navigation-fragment-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/25f64609249351af554fd05cbd12e5da/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/ac8b5e897542e28f612d58b4963fcbd0/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/730e2b946801d67bed5a4966c01ae1fb/recyclerview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/b3f6fc6b125a03f190cabae3a7ab56ee/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e62234794a10f18d63368d932da03138/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5b9435598597491a6cdaff26c370bc50/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f30cd37fd36c4439c55f5653efcb2735/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7e7dfef1fa9a2b6b731c4f10f5954196/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/bcc0b0a04053ec2db7652459f0cc979a/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d47efb66c2e4636eeefe48d2626cf6f9/navigation-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/09f43b640a64364cc18d2a6fc4becd11/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/08266f3352dcba3270ce4ebb6cce50db/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/01fb82a8f06869091b399897d990dbf1/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1fee633ad862304db78bf9b5360b9728/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/dadc4e1d834012b1b840f4f4c5711129/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/0ef248426e11c63f662e1f8e7c2c16a4/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d1ac23dfffeae0602509d3e54b78aff5/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/07f87d3b6407cb9044e39b55a4b67e1b/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.1] /home/gado/.gradle/caches/transforms-2/files-2.1/658195eac5430b4c3cb5611ba2ba9e7a/transition-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5211c866faa78ba843b873408c4fe51f/navigation-common-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f4954bf96c4234b7401817045e30a0da/navigation-common-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/2976e07b40472bae399764f01c48c978/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/881dde82de58e8c13466babcba3d5e29/lifecycle-process-2.1.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/de27f415423e4c75d147737226f60404/lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e62f19306756bac97ac87fd6e034bf6f/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8def5d73a2f3c6700e4046f6d66e126a/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/2ed46897f79b2957af52b5a1a6cb0d5e/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f7aec5390ba6f7028f68e83b84fd633c/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/35e6539fe87a160f281425f2a9a40a47/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1b40af5b933dbabfe20b65e88addd94f/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/b4cdc3e2ad5cb847d6bf7722186b1721/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f38b1a3f55faecf8778c612bf4d6297e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/19948a6d657ea7677e49ee0aa3970b0a/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a8b476095b010eec06810cf35c2c2ff6/gifdecoder-4.10.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d07820016aadb7957bb3097952176635/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/57868c73a9fc0a04a619b52353d3b663/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d0ca19038d6ce4c26d6c5668de588bf4/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/b75f3300913853d812ca7334c35d406e/print-1.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:4:5-35
+		INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:6:5-24:19
+MERGED from [com.google.android.material:material:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/0f8f45cc047c7203e43710437c554d4a/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/0f8f45cc047c7203e43710437c554d4a/material-1.0.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/gado/.gradle/caches/transforms-2/files-2.1/1fbb3a5ade844868fa67fdf1dcc21846/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/gado/.gradle/caches/transforms-2/files-2.1/1fbb3a5ade844868fa67fdf1dcc21846/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8238c745f12f47b2aa96291436f1dc86/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8238c745f12f47b2aa96291436f1dc86/lifecycle-extensions-2.1.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8550a96463c9bbd0bca925845e2850a6/glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8550a96463c9bbd0bca925845e2850a6/glide-4.10.0/AndroidManifest.xml:10:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/df4a3d9cdf4ea44c0266efbe283dd7cb/volley-1.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/df4a3d9cdf4ea44c0266efbe283dd7cb/volley-1.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/2976e07b40472bae399764f01c48c978/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/2976e07b40472bae399764f01c48c978/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/881dde82de58e8c13466babcba3d5e29/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/881dde82de58e8c13466babcba3d5e29/lifecycle-process-2.1.0/AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8def5d73a2f3c6700e4046f6d66e126a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8def5d73a2f3c6700e4046f6d66e126a/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a8b476095b010eec06810cf35c2c2ff6/gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a8b476095b010eec06810cf35c2c2ff6/gifdecoder-4.10.0/AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/2976e07b40472bae399764f01c48c978/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:9:9-41
+	tools:ignore
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:14:9-48
+	android:roundIcon
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:7:9-36
+	android:theme
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:13:9-40
+	android:name
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:10:9-38
+activity#com.eramint.movieapp.HomeActivity
+ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:15:9-23:20
+	android:theme
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:17:13-56
+	android:name
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:16:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.6.0-alpha09] /home/gado/.gradle/caches/transforms-2/files-2.1/ae0b9fa04297d692df6eabd29d0fbd48/databinding-adapters-3.6.0-alpha09/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.6.0-alpha09] /home/gado/.gradle/caches/transforms-2/files-2.1/ae0b9fa04297d692df6eabd29d0fbd48/databinding-adapters-3.6.0-alpha09/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.0-alpha09] /home/gado/.gradle/caches/transforms-2/files-2.1/bf079d791827efa16671c18fef270316/databinding-runtime-3.6.0-alpha09/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.6.0-alpha09] /home/gado/.gradle/caches/transforms-2/files-2.1/bf079d791827efa16671c18fef270316/databinding-runtime-3.6.0-alpha09/AndroidManifest.xml:22:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7fd03e7484a8faa52b1ca4594bf05e75/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7fd03e7484a8faa52b1ca4594bf05e75/navigation-ui-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e2e6122422235869c607bdb48f9632b5/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e2e6122422235869c607bdb48f9632b5/jetified-navigation-ui-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/0f8f45cc047c7203e43710437c554d4a/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/0f8f45cc047c7203e43710437c554d4a/material-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7ef3a039e8016fd4c6a422584bf8a12c/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7ef3a039e8016fd4c6a422584bf8a12c/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/33a96ef8e65000a5f77ec7bafbf81e22/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/33a96ef8e65000a5f77ec7bafbf81e22/core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/gado/.gradle/caches/transforms-2/files-2.1/1fbb3a5ade844868fa67fdf1dcc21846/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/gado/.gradle/caches/transforms-2/files-2.1/1fbb3a5ade844868fa67fdf1dcc21846/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8238c745f12f47b2aa96291436f1dc86/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8238c745f12f47b2aa96291436f1dc86/lifecycle-extensions-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/89e43e19fae1f874ee166f561e246e75/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/89e43e19fae1f874ee166f561e246e75/navigation-fragment-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5b420ce3670382d9afe34bd6eb7e336b/fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5b420ce3670382d9afe34bd6eb7e336b/fragment-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/40d38e42ecd8bf140c832adb5e61b0f0/activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/40d38e42ecd8bf140c832adb5e61b0f0/activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1f04af05a16b53ba00908c98add31136/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1f04af05a16b53ba00908c98add31136/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8550a96463c9bbd0bca925845e2850a6/glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8550a96463c9bbd0bca925845e2850a6/glide-4.10.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.volley:volley:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/df4a3d9cdf4ea44c0266efbe283dd7cb/volley-1.1.0/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/df4a3d9cdf4ea44c0266efbe283dd7cb/volley-1.1.0/AndroidManifest.xml:7:5-43
+MERGED from [androidx.databinding:viewbinding:3.6.0-alpha09] /home/gado/.gradle/caches/transforms-2/files-2.1/1f8fd37e5f060574ee3b832909868c32/viewbinding-3.6.0-alpha09/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:3.6.0-alpha09] /home/gado/.gradle/caches/transforms-2/files-2.1/1f8fd37e5f060574ee3b832909868c32/viewbinding-3.6.0-alpha09/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a3667be2aed7df92ef690eb0c810efb9/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a3667be2aed7df92ef690eb0c810efb9/navigation-fragment-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/25f64609249351af554fd05cbd12e5da/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/25f64609249351af554fd05cbd12e5da/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/ac8b5e897542e28f612d58b4963fcbd0/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/ac8b5e897542e28f612d58b4963fcbd0/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/730e2b946801d67bed5a4966c01ae1fb/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/730e2b946801d67bed5a4966c01ae1fb/recyclerview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/b3f6fc6b125a03f190cabae3a7ab56ee/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/b3f6fc6b125a03f190cabae3a7ab56ee/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e62234794a10f18d63368d932da03138/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e62234794a10f18d63368d932da03138/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5b9435598597491a6cdaff26c370bc50/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5b9435598597491a6cdaff26c370bc50/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f30cd37fd36c4439c55f5653efcb2735/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f30cd37fd36c4439c55f5653efcb2735/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7e7dfef1fa9a2b6b731c4f10f5954196/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7e7dfef1fa9a2b6b731c4f10f5954196/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/bcc0b0a04053ec2db7652459f0cc979a/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/bcc0b0a04053ec2db7652459f0cc979a/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d47efb66c2e4636eeefe48d2626cf6f9/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d47efb66c2e4636eeefe48d2626cf6f9/navigation-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/09f43b640a64364cc18d2a6fc4becd11/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/09f43b640a64364cc18d2a6fc4becd11/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/08266f3352dcba3270ce4ebb6cce50db/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/08266f3352dcba3270ce4ebb6cce50db/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/01fb82a8f06869091b399897d990dbf1/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/01fb82a8f06869091b399897d990dbf1/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1fee633ad862304db78bf9b5360b9728/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1fee633ad862304db78bf9b5360b9728/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/dadc4e1d834012b1b840f4f4c5711129/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/dadc4e1d834012b1b840f4f4c5711129/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/0ef248426e11c63f662e1f8e7c2c16a4/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/0ef248426e11c63f662e1f8e7c2c16a4/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d1ac23dfffeae0602509d3e54b78aff5/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d1ac23dfffeae0602509d3e54b78aff5/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/07f87d3b6407cb9044e39b55a4b67e1b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/07f87d3b6407cb9044e39b55a4b67e1b/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /home/gado/.gradle/caches/transforms-2/files-2.1/658195eac5430b4c3cb5611ba2ba9e7a/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.1] /home/gado/.gradle/caches/transforms-2/files-2.1/658195eac5430b4c3cb5611ba2ba9e7a/transition-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5211c866faa78ba843b873408c4fe51f/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5211c866faa78ba843b873408c4fe51f/navigation-common-ktx-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f4954bf96c4234b7401817045e30a0da/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f4954bf96c4234b7401817045e30a0da/navigation-common-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/2976e07b40472bae399764f01c48c978/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/2976e07b40472bae399764f01c48c978/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/881dde82de58e8c13466babcba3d5e29/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/881dde82de58e8c13466babcba3d5e29/lifecycle-process-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/de27f415423e4c75d147737226f60404/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/de27f415423e4c75d147737226f60404/lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e62f19306756bac97ac87fd6e034bf6f/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e62f19306756bac97ac87fd6e034bf6f/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8def5d73a2f3c6700e4046f6d66e126a/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8def5d73a2f3c6700e4046f6d66e126a/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/2ed46897f79b2957af52b5a1a6cb0d5e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/2ed46897f79b2957af52b5a1a6cb0d5e/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f7aec5390ba6f7028f68e83b84fd633c/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f7aec5390ba6f7028f68e83b84fd633c/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/35e6539fe87a160f281425f2a9a40a47/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/35e6539fe87a160f281425f2a9a40a47/lifecycle-livedata-core-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1b40af5b933dbabfe20b65e88addd94f/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1b40af5b933dbabfe20b65e88addd94f/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/b4cdc3e2ad5cb847d6bf7722186b1721/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/b4cdc3e2ad5cb847d6bf7722186b1721/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f38b1a3f55faecf8778c612bf4d6297e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f38b1a3f55faecf8778c612bf4d6297e/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/19948a6d657ea7677e49ee0aa3970b0a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/19948a6d657ea7677e49ee0aa3970b0a/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a8b476095b010eec06810cf35c2c2ff6/gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a8b476095b010eec06810cf35c2c2ff6/gifdecoder-4.10.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d07820016aadb7957bb3097952176635/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d07820016aadb7957bb3097952176635/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/57868c73a9fc0a04a619b52353d3b663/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/57868c73a9fc0a04a619b52353d3b663/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d0ca19038d6ce4c26d6c5668de588bf4/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/d0ca19038d6ce4c26d6c5668de588bf4/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/b75f3300913853d812ca7334c35d406e/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/b75f3300913853d812ca7334c35d406e/print-1.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+		ADDED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/gado/Desktop/Projects/MovieApp/app/src/main/AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/881dde82de58e8c13466babcba3d5e29/lifecycle-process-2.1.0/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/881dde82de58e8c13466babcba3d5e29/lifecycle-process-2.1.0/AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/881dde82de58e8c13466babcba3d5e29/lifecycle-process-2.1.0/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/881dde82de58e8c13466babcba3d5e29/lifecycle-process-2.1.0/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/881dde82de58e8c13466babcba3d5e29/lifecycle-process-2.1.0/AndroidManifest.xml:24:13-79

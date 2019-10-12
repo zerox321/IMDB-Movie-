@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/top_rated_fragment">
+
+    <fragment
+        android:id="@+id/top_rated_fragment"
+        android:name="com.eramint.movieapp.ui.topRated.TopRatedFragment"
+        android:label="@string/topRated"
+        tools:layout="@layout/top_rated_fragment">
+
+
+    </fragment>
+
+</navigation>
