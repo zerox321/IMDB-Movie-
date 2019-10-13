@@ -27,10 +27,15 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fade
+anim item_animation_from_bottom
+anim layout_animation_from_bottom
 anim nav_default_enter_anim
 anim nav_default_exit_anim
 anim nav_default_pop_enter_anim
 anim nav_default_pop_exit_anim
+anim slide_down
+anim slide_up
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1466,6 +1471,7 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id thumbnail
 id time
 id title
 id titleDividerNoCustom
@@ -1560,6 +1566,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout home_activity
+layout movie_list_row
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

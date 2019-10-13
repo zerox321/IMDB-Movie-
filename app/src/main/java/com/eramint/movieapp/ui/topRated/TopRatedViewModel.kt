@@ -1,56 +1,31 @@
 package com.eramint.movieapp.ui.topRated
 
 import android.util.Log
+import androidx.databinding.ObservableBoolean
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.android.volley.toolbox.StringRequest
-import com.eramint.movieapp.HomeActivity
-import com.eramint.movieapp.model.MovieResponse
-import com.eramint.movieapp.volley.Volley
-import com.google.gson.Gson
-import com.google.gson.JsonSyntaxException
-import com.google.gson.reflect.TypeToken
-import java.net.URLDecoder
-import java.net.URLEncoder
+import com.eramint.movieapp.adpater.MovieAdapter
+import com.eramint.movieapp.model.MovieItem
 
-class TopRatedViewModel : ViewModel() {
+
+class TopRatedViewModel : ViewModel(), MovieAdapter.ClickListener {
+    override fun onRowClick(MovieItem: MovieItem) {
+    }
+
     private val tag = "TopRatedViewModel :  "
+    val isLoading: ObservableBoolean = ObservableBoolean()
+    val adapter = MutableLiveData<MovieAdapter>()
+private val repository:TopRatedRepository = TopRatedRepository()
 
     init {
-        fetchTopMovies()
+        Log.e(tag,"init")
+        adapter.value = MovieAdapter(this)
+        repository.fetchTopMovies()
     }
 
-    private fun fetchTopMovies() {
 
-        val request = object : StringRequest(
-            Method.GET, "https://api.themoviedb.org/3/movie/top_rated?api_key=${HomeActivity.API_KEY()}",
-            { response ->
-                parseResponse(
-                    URLDecoder.decode(URLEncoder.encode(response, "iso8859-1"), "UTF-8")
-                )
-            }, { error ->
-                Log.e(tag, " ${error.message}")
-            }) {
-
-
-        }
-
-        Volley.instance!!.addToRequestQueue(request)
-
-    }
-
-    private fun parseResponse(response: String) {
-        Log.e(tag, " $response")
-        try {
-            val responseObj =
-                Gson().fromJson<MovieResponse>(
-                    response,
-                    object : TypeToken<MovieResponse>() {}.type
-                )
-
-
-        } catch (ignored: IllegalStateException) {
-        } catch (ignored: JsonSyntaxException) {
-        }
+    fun onRefresh() {
+        Log.e(tag,"onRefresh")
 
     }
 }

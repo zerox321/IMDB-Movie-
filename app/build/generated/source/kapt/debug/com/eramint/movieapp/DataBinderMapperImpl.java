@@ -7,6 +7,8 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.eramint.movieapp.databinding.HomeActivityBindingImpl;
+import com.eramint.movieapp.databinding.MovieListRowBindingImpl;
+import com.eramint.movieapp.databinding.TopRatedFragmentBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -20,10 +22,16 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_HOMEACTIVITY = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_MOVIELISTROW = 2;
+
+  private static final int LAYOUT_TOPRATEDFRAGMENT = 3;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.eramint.movieapp.R.layout.home_activity, LAYOUT_HOMEACTIVITY);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.eramint.movieapp.R.layout.movie_list_row, LAYOUT_MOVIELISTROW);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.eramint.movieapp.R.layout.top_rated_fragment, LAYOUT_TOPRATEDFRAGMENT);
   }
 
   @Override
@@ -40,6 +48,18 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new HomeActivityBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for home_activity is invalid. Received: " + tag);
+        }
+        case  LAYOUT_MOVIELISTROW: {
+          if ("layout/movie_list_row_0".equals(tag)) {
+            return new MovieListRowBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for movie_list_row is invalid. Received: " + tag);
+        }
+        case  LAYOUT_TOPRATEDFRAGMENT: {
+          if ("layout/top_rated_fragment_0".equals(tag)) {
+            return new TopRatedFragmentBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for top_rated_fragment is invalid. Received: " + tag);
         }
       }
     }
@@ -86,18 +106,22 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(1);
+    static final SparseArray<String> sKeys = new SparseArray<String>(3);
 
     static {
+      sKeys.put(1, "ListItem");
       sKeys.put(0, "_all");
+      sKeys.put(2, "viewModel");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
 
     static {
       sKeys.put("layout/home_activity_0", com.eramint.movieapp.R.layout.home_activity);
+      sKeys.put("layout/movie_list_row_0", com.eramint.movieapp.R.layout.movie_list_row);
+      sKeys.put("layout/top_rated_fragment_0", com.eramint.movieapp.R.layout.top_rated_fragment);
     }
   }
 }

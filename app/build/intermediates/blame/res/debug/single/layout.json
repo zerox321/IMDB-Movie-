@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/movie_list_row.xml",
+        "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/layout/movie_list_row.xml"
+    },
+    {
+        "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/top_rated_fragment.xml",
+        "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/layout/top_rated_fragment.xml"
+    },
+    {
         "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/home_activity.xml",
         "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/layout/home_activity.xml"
     }

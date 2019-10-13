@@ -1,4 +1,4 @@
-#Sun Oct 13 01:00:51 EET 2019
+#Sun Oct 13 22:54:19 EET 2019
 base.0=/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/dex/debug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

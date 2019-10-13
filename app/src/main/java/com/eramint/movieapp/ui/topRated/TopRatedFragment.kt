@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.eramint.movieapp.HomeActivity
 import com.eramint.movieapp.R
+import com.eramint.movieapp.databinding.TopRatedFragmentBinding
 
 class TopRatedFragment : Fragment() {
 
@@ -17,13 +18,19 @@ class TopRatedFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.top_rated_fragment, container, false)
+        val binding = TopRatedFragmentBinding.inflate(layoutInflater)
+        binding.lifecycleOwner = this
+
+        initViewModel(binding)
+        return binding.root
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
-        super.onActivityCreated(savedInstanceState)
-        val viewModel = ViewModelProviders.of(this).get(TopRatedViewModel::class.java)
 
+    private fun initViewModel(
+        binding: TopRatedFragmentBinding
+    ) {
+        val viewModel = ViewModelProviders.of(this).get(TopRatedViewModel::class.java)
+        binding.viewModel = viewModel
     }
 
 }

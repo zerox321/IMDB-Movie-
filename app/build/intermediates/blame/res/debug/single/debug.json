@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/anim_fade.xml.flat",
+        "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/anim/fade.xml"
+    },
+    {
         "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_logo_foreground.png.flat",
         "source": "/home/gado/Desktop/Projects/MovieApp/app/build/generated/res/pngs/debug/drawable-xxxhdpi/logo_foreground.png"
     },
@@ -18,6 +22,10 @@
     {
         "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher_foreground.png.flat",
         "source": "/home/gado/Desktop/Projects/MovieApp/app/build/generated/res/pngs/debug/drawable-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/anim_slide_up.xml.flat",
+        "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/anim/slide_up.xml"
     },
     {
         "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -44,6 +52,10 @@
         "source": "/home/gado/Desktop/Projects/MovieApp/app/build/generated/res/pngs/debug/drawable-hdpi/ic_launcher_foreground.png"
     },
     {
+        "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/layout_movie_list_row.xml.flat",
+        "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/layout/movie_list_row.xml"
+    },
+    {
         "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
@@ -64,6 +76,10 @@
         "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/layout/home_activity.xml"
     },
     {
+        "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/anim_slide_down.xml.flat",
+        "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/anim/slide_down.xml"
+    },
+    {
         "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/drawable-mdpi_logo_foreground.png.flat",
         "source": "/home/gado/Desktop/Projects/MovieApp/app/build/generated/res/pngs/debug/drawable-mdpi/logo_foreground.png"
     },
@@ -80,6 +96,10 @@
         "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/layout/top_rated_fragment.xml"
     },
     {
+        "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/anim_item_animation_from_bottom.xml.flat",
+        "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/anim/item_animation_from_bottom.xml"
+    },
+    {
         "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_logo_foreground.xml.flat",
         "source": "/home/gado/Desktop/Projects/MovieApp/app/build/generated/res/pngs/debug/drawable-anydpi-v21/logo_foreground.xml"
     },
@@ -94,6 +114,10 @@
     {
         "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher_foreground.png.flat",
         "source": "/home/gado/Desktop/Projects/MovieApp/app/build/generated/res/pngs/debug/drawable-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/anim_layout_animation_from_bottom.xml.flat",
+        "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/anim/layout_animation_from_bottom.xml"
     },
     {
         "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
