@@ -17,6 +17,7 @@ MERGED from [androidx.navigation:navigation-fragment-ktx:2.1.0] /home/gado/.grad
 MERGED from [androidx.fragment:fragment-ktx:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5b420ce3670382d9afe34bd6eb7e336b/fragment-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity-ktx:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/40d38e42ecd8bf140c832adb5e61b0f0/activity-ktx-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1f04af05a16b53ba00908c98add31136/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5806697acf67f6ae9902144254960f6f/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8550a96463c9bbd0bca925845e2850a6/glide-4.10.0/AndroidManifest.xml:2:1-12:12
 MERGED from [com.android.volley:volley:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/df4a3d9cdf4ea44c0266efbe283dd7cb/volley-1.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.databinding:viewbinding:3.6.0-alpha09] /home/gado/.gradle/caches/transforms-2/files-2.1/1f8fd37e5f060574ee3b832909868c32/viewbinding-3.6.0-alpha09/AndroidManifest.xml:17:1-22:12
@@ -27,6 +28,7 @@ MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/gado/.gradle/caches
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/b3f6fc6b125a03f190cabae3a7ab56ee/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e62234794a10f18d63368d932da03138/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5b9435598597491a6cdaff26c370bc50/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a430382be64ca25eab9f4f63ced953ca/media-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f30cd37fd36c4439c55f5653efcb2735/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7e7dfef1fa9a2b6b731c4f10f5954196/loader-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/bcc0b0a04053ec2db7652459f0cc979a/navigation-runtime-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
@@ -166,6 +168,8 @@ MERGED from [androidx.activity:activity-ktx:1.0.0] /home/gado/.gradle/caches/tra
 MERGED from [androidx.activity:activity-ktx:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/40d38e42ecd8bf140c832adb5e61b0f0/activity-ktx-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1f04af05a16b53ba00908c98add31136/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/1f04af05a16b53ba00908c98add31136/lifecycle-viewmodel-ktx-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5806697acf67f6ae9902144254960f6f/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5806697acf67f6ae9902144254960f6f/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8550a96463c9bbd0bca925845e2850a6/glide-4.10.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.github.bumptech.glide:glide:4.10.0] /home/gado/.gradle/caches/transforms-2/files-2.1/8550a96463c9bbd0bca925845e2850a6/glide-4.10.0/AndroidManifest.xml:6:5-8:41
 MERGED from [com.android.volley:volley:1.1.0] /home/gado/.gradle/caches/transforms-2/files-2.1/df4a3d9cdf4ea44c0266efbe283dd7cb/volley-1.1.0/AndroidManifest.xml:7:5-43
@@ -186,6 +190,8 @@ MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gado/.gradle/caches
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/e62234794a10f18d63368d932da03138/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5b9435598597491a6cdaff26c370bc50/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/5b9435598597491a6cdaff26c370bc50/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a430382be64ca25eab9f4f63ced953ca/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/a430382be64ca25eab9f4f63ced953ca/media-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f30cd37fd36c4439c55f5653efcb2735/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/f30cd37fd36c4439c55f5653efcb2735/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /home/gado/.gradle/caches/transforms-2/files-2.1/7e7dfef1fa9a2b6b731c4f10f5954196/loader-1.0.0/AndroidManifest.xml:20:5-44

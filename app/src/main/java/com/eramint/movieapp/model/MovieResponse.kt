@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName
 
 data class MovieResponse(
     @SerializedName("page") val page: Int,
-    @SerializedName("results") val results: List<MovieItem>,
+    @SerializedName("results") val results: ArrayList<MovieItem>,
     @SerializedName("total_pages") val totalPages: Int,
     @SerializedName("total_results") val totalResults: Int
 )
@@ -12,7 +12,7 @@ data class MovieResponse(
 data class MovieItem(
     @SerializedName("adult") val adult: Boolean,
     @SerializedName("backdrop_path") val backdropPath: String,
-    @SerializedName("genre_ids") val genreIds: List<Int>,
+    @SerializedName("genre_ids") val genreIds: ArrayList<Int>,
     @SerializedName("id") val id: Int,
     @SerializedName("original_language") val originalLanguage: String,
     @SerializedName("original_title") val originalTitle: String,

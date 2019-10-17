@@ -3,14 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/top_rated_fragment">
+    app:startDestination="@id/popular_fragment">
+
+s
+
 
     <fragment
-        android:id="@+id/top_rated_fragment"
-        android:name="com.eramint.movieapp.ui.topRated.TopRatedFragment"
-        android:label="@string/topRated"
-        tools:layout="@layout/top_rated_fragment">
+        android:id="@+id/popular_fragment"
+        android:name="com.eramint.movieapp.ui.movieList.MovieListFragment"
+        android:label="@string/popular"
+        tools:layout="@layout/movie_list_fragment">
 
+        <action
+            android:id="@+id/action_popular_fragment_to_detial_movie_fragment"
+            app:destination="@id/detial_movie_fragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detial_movie_fragment"
+        android:name="com.eramint.movieapp.ui.movieDetail.DetialMovieFragment"
+        android:label="@string/Detail"
+        tools:layout="@layout/detial_movie_fragment">
 
     </fragment>
 

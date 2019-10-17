@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">MovieApp</string>
     <string name="topRated">Top Rated</string>
+    <string name="popular">Popular </string>
+    <string name="Detail">Detail </string>
+    <string name="popular_Tag">popular</string>
+    <string name="topRated_Tag">top_rated</string>
 
 </resources>

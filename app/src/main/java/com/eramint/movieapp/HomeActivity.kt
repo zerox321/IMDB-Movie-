@@ -9,13 +9,13 @@ class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setDarkMood(2)
-
         setContentView(R.layout.home_activity)
     }
 
 
     companion object {
-         external fun API_KEY(): String
+        external fun API_KEY(): String
+
         init {
             System.loadLibrary("native-lib")
         }

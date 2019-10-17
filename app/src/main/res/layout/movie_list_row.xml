@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="ListItem"
+            type="com.eramint.movieapp.model.MovieItem" />
+
+
+    </data>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/selectableItemBackground"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.eramint.movieapp.util.AspectLockedImageView
+                    android:id="@+id/movie_item_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="centerCrop"
+                    app:image="@{ListItem.posterPath}"
+                    app:imageAspectRatio="@dimen/movie_item_image_aspect_ratio"
+                    tools:layout_width="300dp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/md_keyIV"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@{ListItem.title}"
+                    android:textSize="@dimen/mainFont" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/md_keyIV"
+                    android:layout_marginEnd="@dimen/md_keyIV"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="@{ListItem.releaseDate}"
+                    android:textSize="@dimen/secondFont" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/md_keyIV"
+                    android:fontFamily="sans-serif-condensed"
+                    android:lines="2"
+                    android:text="@{ListItem.overview}"
+                    android:textSize="@dimen/secondFont" />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/md_key"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_fav_on"
+                app:layout_anchor="@id/movie_item_image"
+                app:layout_anchorGravity="bottom|end" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</layout>

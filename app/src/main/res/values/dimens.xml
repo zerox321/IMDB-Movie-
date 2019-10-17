@@ -1,3 +1,10 @@
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="md_key">16dp</dimen>
+    <dimen name="md_keyV">8dp</dimen>
+    <dimen name="md_keyIV">4dp</dimen>
+    <dimen name="mainFont">13sp</dimen>
+    <dimen name="secondFont">9sp</dimen>
+
+
+    <item name="movie_item_image_aspect_ratio" format="float" type="dimen">.675</item>
 </resources>
