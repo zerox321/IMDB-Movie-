@@ -1,12 +1,12 @@
-package com.eramint.movieapp.ui.movieList;
+package com.eramint.movieapp.ui.fragmentPager;
 
 import androidx.annotation.NonNull;
 import androidx.navigation.ActionOnlyNavDirections;
 import androidx.navigation.NavDirections;
 import com.eramint.movieapp.R;
 
-public class MovieListFragmentDirections {
-  private MovieListFragmentDirections() {
+public class ContainerFragmentDirections {
+  private ContainerFragmentDirections() {
   }
 
   @NonNull

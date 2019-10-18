@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/popular_fragment">
+    app:startDestination="@id/fragment_container">
 
 s
 
 
     <fragment
-        android:id="@+id/popular_fragment"
-        android:name="com.eramint.movieapp.ui.movieList.MovieListFragment"
-        android:label="@string/popular"
-        tools:layout="@layout/movie_list_fragment">
+        android:id="@+id/fragment_container"
+        android:name="com.eramint.movieapp.ui.fragmentPager.ContainerFragment"
+        android:label="ContainerFragment"
+        tools:layout="@layout/fragment_container">
 
         <action
             android:id="@+id/action_popular_fragment_to_detial_movie_fragment"

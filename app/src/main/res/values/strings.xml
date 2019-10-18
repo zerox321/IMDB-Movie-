@@ -6,4 +6,7 @@
     <string name="popular_Tag">popular</string>
     <string name="topRated_Tag">top_rated</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

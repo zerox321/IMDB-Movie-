@@ -28,6 +28,10 @@
         "source": "/home/gado/Desktop/Projects/MovieApp/app/build/generated/res/pngs/debug/drawable-ldpi/logo_foreground.png"
     },
     {
+        "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/layout_fragment_container.xml.flat",
+        "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/layout/fragment_container.xml"
+    },
+    {
         "merged": "/home/gado/Desktop/Projects/MovieApp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/home/gado/Desktop/Projects/MovieApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },

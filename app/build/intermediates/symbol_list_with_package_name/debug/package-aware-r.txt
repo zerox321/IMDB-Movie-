@@ -906,6 +906,7 @@ color themeDeselected
 color themeSelected
 color tooltip_background_dark
 color tooltip_background_light
+color white
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -1323,6 +1324,7 @@ id add
 id alertTitle
 id all
 id always
+id appBarLayout
 id async
 id auto
 id barrier
@@ -1375,6 +1377,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id fragment_container
 id ghost_view
 id glide_custom_view_target_tag
 id gone
@@ -1428,7 +1431,6 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
-id popular_fragment
 id progress_circular
 id progress_horizontal
 id radio
@@ -1479,6 +1481,7 @@ id stretch
 id submenuarrow
 id submit_area
 id tabMode
+id tabs
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -1501,6 +1504,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -1514,6 +1518,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id viewPager
 id view_offset_helper
 id visible
 id withText
@@ -1590,6 +1595,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout detial_movie_fragment
+layout fragment_container
 layout home_activity
 layout movie_list_fragment
 layout movie_list_row
@@ -1652,6 +1658,7 @@ string character_counter_content_description
 string character_counter_pattern
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string mtrl_chip_close_icon_content_description
 string nav_app_bar_navigate_up_description
@@ -1673,6 +1680,8 @@ style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
 style Animation_Design_BottomSheetDialog
+style AppTabLayout
+style AppTabTextAppearance
 style AppTheme
 style AppTheme_AMBER
 style AppTheme_AppBarOverlay
@@ -2089,6 +2098,9 @@ style ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox
 style ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense
+style ToolbarTextAppearance
+style ToolbarTextAppearance_Subtitle
+style ToolbarTextAppearance_Title
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar

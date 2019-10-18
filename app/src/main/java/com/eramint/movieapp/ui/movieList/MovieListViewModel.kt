@@ -12,6 +12,7 @@ import com.eramint.movieapp.HomeActivity
 import com.eramint.movieapp.adpater.MovieAdapter
 import com.eramint.movieapp.model.MovieItem
 import com.eramint.movieapp.model.MovieResponse
+import com.eramint.movieapp.ui.fragmentPager.ContainerFragmentDirections
 import com.eramint.movieapp.volley.Volley
 import com.google.gson.Gson
 import com.google.gson.JsonSyntaxException
@@ -22,7 +23,7 @@ import java.net.URLEncoder
 
 class MovieListViewModel(private val Category:String) : ViewModel(), MovieAdapter.ClickListener {
     override fun onRowClick(v: View, MovieItem: MovieItem) {
-        v.findNavController().navigate(MovieListFragmentDirections.actionPopularFragmentToDetialMovieFragment())
+        v.findNavController().navigate(ContainerFragmentDirections.actionPopularFragmentToDetialMovieFragment())
     }
 
 
@@ -32,7 +33,7 @@ class MovieListViewModel(private val Category:String) : ViewModel(), MovieAdapte
     private var page=1
 
     init {
-        Log.e(tag, "init")
+        Log.e(tag, "init   $Category")
         adapter.value = MovieAdapter(this)
         fetchTopMovies(Category)
     }
